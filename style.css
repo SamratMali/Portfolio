@@ -451,7 +451,7 @@ em {
   flex-wrap: wrap;
   padding: 10px;
   height: 300px;
-  margin-left: 50px;
+  margin-left: 110px;
 }
 .skill-card {
   display: flex;
@@ -493,7 +493,7 @@ p {
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 29px;
+  margin-left: 100px;
 }
 .project-card {
   background-color: #e2e8f0;
