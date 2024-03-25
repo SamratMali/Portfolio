@@ -411,38 +411,6 @@ em {
   color: var(--secondary-color);
 }
 
-.contact-btn {
-  display: inline-block;
-  background: var(--primary-color);
-  color: #fff;
-  padding: 10px 30px;
-  margin-top: 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  transition: background 0.3s ease;
-}
-
-.contact-btn:hover {
-  background: var(--secondary-color);
-}
-
-@media (max-width: 768px) {
-  .about-sec-cointainer {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .about-content,
-  .profile {
-    flex-basis: 100%;
-    text-align: center;
-  }
-
-  .profile-img {
-    margin: 0 auto 20px;
-  }
-}
-
 /* About Section End here */
 
 /* Skills Section Start here */
@@ -629,6 +597,7 @@ p {
 
 @media screen and (max-width: 600px) {
   /* profile section start here */
+
   .profile-info {
     max-width: 300px;
     margin: 20px;
@@ -647,9 +616,47 @@ p {
   .profile-img img {
     width: 80px;
     height: 100px;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-right: 20px;
   }
 
   /* Profile Section End here */
+
+  /* About section start here */
+  .about-sec-cointainer {
+    display: flex;
+    max-width: 600px;
+    border: 2px solid red;
+    padding: 20px;
+  }
+  .profile {
+    border: 2px solid green;
+  }
+
+  .profile-img {
+    width: 90px;
+    height: 100px;
+  }
+
+  .about-section p {
+    color: var(--para-color);
+    font-size: 13px !important;
+  }
+
+  /* About section end here */
+
+  /* Project Section Start Here */
+  #project-title h1 {
+    color: var(--nav-link-color);
+  }
+  .project-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-sec {
+    max-height: 3000px;
+  }
+
+  /* Project Section End here */
 }
