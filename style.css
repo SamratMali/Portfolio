@@ -264,6 +264,7 @@ html {
   height: 2px;
   weight: 7px;
   margin-top: 50px;
+  margin-left: 80px;
 }
 @keyframes tracking-in-expand {
   0% {
@@ -613,6 +614,7 @@ p {
   background-color: #edf2f7;
   height: 75px !important;
   align-items: center;
+  width: 100%;
 }
 .footer-sec-profile img {
   height: 50px;
@@ -624,3 +626,30 @@ p {
   margin-right: 20px;
 }
 /* Footer Section End here */
+
+@media screen and (max-width: 600px) {
+  /* profile section start here */
+  .profile-info {
+    max-width: 300px;
+    margin: 20px;
+  }
+  .profile-info h1,
+  h2 {
+    font-size: 25px !important;
+  }
+  .profile-info img {
+    width: 40px;
+    height: 40px;
+  }
+  .profile-info p {
+    font-size: 12px !important;
+  }
+  .profile-img img {
+    width: 80px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+
+  /* Profile Section End here */
+}
