@@ -627,6 +627,11 @@ p {
     max-width: 600px;
     border: 2px solid red;
     padding: 20px;
+    flex-direction: column;
+  }
+  .about-content {
+    border: 2px solid black;
+    width: 325px;
   }
   .profile {
     border: 2px solid green;
