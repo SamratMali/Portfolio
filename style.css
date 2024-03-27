@@ -595,7 +595,7 @@ p {
 }
 /* Footer Section End here */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   /* profile section start here */
 
   .profile-info {
@@ -635,11 +635,15 @@ p {
   }
   .profile {
     border: 2px solid green;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
 
   .profile-img {
-    width: 90px;
-    height: 100px;
+    width: 130px;
+    margin-left: 20px;
+    height: 140px;
   }
 
   .about-section p {
