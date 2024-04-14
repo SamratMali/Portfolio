@@ -35,3 +35,9 @@ function playClickSound() {
   const audio = new Audio(clickSoundUrl);
   audio.play();
 }
+
+//Open resume
+document.getElementById("openPDFBtn").addEventListener("click", function () {
+  const filePath = "./Samrat_Mali.pdf";
+  window.open(filePath);
+});

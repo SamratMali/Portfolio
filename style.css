@@ -4,6 +4,7 @@
 }
 body {
   background-color: var(--primary-color);
+  width: 100vw;
 }
 :root {
   --primary-color: white;
@@ -136,6 +137,7 @@ html {
   margin: 20px;
   margin-left: 200px;
   padding-bottom: 40px;
+  text-align: justify;
 }
 .portfolio-sections h1 {
   display: flex;
@@ -364,19 +366,21 @@ html {
 .about-sec-cointainer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   max-width: 960px;
   margin: auto;
   padding: 20px;
 }
 
-.profile-img {
+.profile-img-about {
   border-radius: 50%;
   width: 250px;
   height: 250px;
   object-fit: cover;
   margin-bottom: 20px;
+
+  background-color: #fe0080;
 }
 
 .about-section {
@@ -386,6 +390,7 @@ html {
 }
 .about-section p {
   color: var(--para-color);
+  text-align: justify;
 }
 .about-section strong {
   color: #3ad2d0;
