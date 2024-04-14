@@ -704,4 +704,11 @@ p {
   font-weight: bold;
   cursor: pointer;
 }
+#checkbtn {
+  background-color: #806dd6;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
 /* popup box css end here */

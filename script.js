@@ -61,13 +61,10 @@ function showPopup() {
   popupBox.appendChild(popupContent);
 
   var checkNowButton = document.createElement("a");
+  checkNowButton.id = "checkbtn";
+
   checkNowButton.href = "#project";
-  checkNowButton.textContent = "Check Now";
-  checkNowButton.style.display = "inline-block";
-  checkNowButton.style.padding = "10px 20px";
-  checkNowButton.style.backgroundColor = "#4CAF50";
-  checkNowButton.style.color = "#fff";
-  checkNowButton.style.textDecoration = "none";
+  checkNowButton.textContent = "Check   Now";
   popupBox.appendChild(checkNowButton);
 
   document.body.appendChild(popupBox);
