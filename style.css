@@ -678,3 +678,30 @@ p {
 
   /* Project Section End here */
 }
+
+/* popup box css start here */
+#popupBox {
+  position: fixed;
+  font-family: Oswald;
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #edf2f7;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  p {
+    text-align: justify;
+  }
+}
+#closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* popup box css end here */
