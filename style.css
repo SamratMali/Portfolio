@@ -7,7 +7,7 @@ body {
   width: 100vw;
 }
 :root {
-  --primary-color: rgb(173, 23, 23);
+  --primary-color: white;
   --para-color: #000021;
   --nav-color: #edf2f7;
   --nav-link-color: #1a202c;
