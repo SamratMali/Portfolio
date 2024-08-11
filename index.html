@@ -11,81 +11,84 @@
   <body>
 
     <!-- navbar start here -->
-    <div class="container">
-      <div class="items">
-        <div class="verify-profile">
-          <img src="sam.jpg" height="50px" width="50px" alt="" srcset="" />
+     <section class="nav-bar">
+      <div class="container">
+        <div class="items">
+          <div class="verify-profile">
+            <img src="sam.jpg" height="50px" width="50px" alt="" srcset="" />
+          </div>
+          <div class="verify-profile-detail">
+            <div class="verify-detail" style="display: flex">
+              <h1 style="font-size: 16px; font-weight: 600; font-family: Oswald;">
+                Samrat
+              </h1>
+  
+              <img class="verify-deatails-firstimg"
+                src="https://www.veeforu.com/wp-content/uploads/2023/09/Blue-instagram-verified-badge-png.png"
+                alt=""
+                srcset=""
+                height="18px" width="27px"
+              />
+            </div>
+  
+            <div class="verify-detail" style="display: flex">
+              <img class="verify-deatails-Secimg"
+                src="https://cdn3.emoji.gg/emojis/7673-verified-grey.png"
+                alt=""
+                style="filter: grayscale(100)"
+                srcset=""
+                height="12px" width="14px"
+              />
+              <h1
+                style="
+                  font-size: 12px;
+                  color: #808080;
+                  font-weight: 600;
+                  font-family: Oswald;
+                "
+              >
+                Official
+              </h1>
+            </div>
+          </div>
         </div>
-        <div class="verify-profile-detail">
-          <div class="verify-detail" style="display: flex">
-            <h1 style="font-size: 16px; font-weight: 600; font-family: Oswald;">
-              Samrat
-            </h1>
-
-            <img class="verify-deatails-firstimg"
-              src="https://www.veeforu.com/wp-content/uploads/2023/09/Blue-instagram-verified-badge-png.png"
+        <div class="nav-link">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skill's</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="items">
+          <div class="profile-mode" onclick="playClickSound();">
+              <button class="profile-mode-button" id="icon"  style="cursor:pointer;">
+                  <img  id="img-mode"
+              src="https://cdn.iconscout.com/icon/free/png-256/free-night-mode-2-475098.png"
               alt=""
               srcset=""
-              height="18px" width="27px"
+              
             />
+            Dark Mode
           </div>
-
-          <div class="verify-detail" style="display: flex">
-            <img class="verify-deatails-Secimg"
-              src="https://cdn3.emoji.gg/emojis/7673-verified-grey.png"
-              alt=""
-              style="filter: grayscale(100)"
-              srcset=""
-              height="12px" width="14px"
-            />
-            <h1
-              style="
-                font-size: 12px;
-                color: #808080;
-                font-weight: 600;
-                font-family: Oswald;
-              "
-            >
-              Official
-            </h1>
-          </div>
-        </div>
-      </div>
-      <div class="nav-link">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skill's</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </div>
-      <div class="items">
-        <div class="profile-mode" onclick="playClickSound();">
-            <button class="profile-mode-button" id="icon"  style="cursor:pointer;">
-                <img  id="img-mode"
-            src="https://cdn.iconscout.com/icon/free/png-256/free-night-mode-2-475098.png"
-            alt=""
-            srcset=""
-            
-          />
-          Dark Mode
-        </div>
-        
-        </button>
           
-        <div class="profile-mode">
-            <a href="https://github.com/SamratMali" target="_blank" onclick="audio.play();">
-            <img style="cursor:pointer"
-              src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-              alt=""
-              srcset=""
-            /> 
-          </a>
-       
+          </button>
+            
+          <div class="profile-mode">
+              <a href="https://github.com/SamratMali" target="_blank" onclick="audio.play();">
+              <img style="cursor:pointer"
+                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+                alt=""
+                srcset=""
+              /> 
+            </a>
+         
+          </div>
         </div>
       </div>
-    </div>
+     </section>
+    
     <!-- Navbar end here -->
     <!-- Home Section Start here -->
     <section id="home" class="portfolio-sections">
@@ -409,7 +412,7 @@
                   
                 </div>
                </a> 
-               <a href="https://samratmali.github.io/Password-Generator/">
+               <a href="https://samratmali.github.io/Password-Generator/" target="_blank">
                 <div class="proj-sub-button">Live Demo</div>
                </a>
               
@@ -419,65 +422,9 @@
            </div> 
            <!-- project 1 Card  End here -->
 
-        
+        </section>
       <!-- project section end here -->
 
-
-      <!-- Contact Us start here -->
-
-      <div class="contact-container" id="contact">
-        <div class="contact-img">
-              <img src="./mail-gif.gif" alt="" srcset="">
-        </div>
-        <div class="contact-form">
-          <h1 style=" font-size: 25px; font-family: Oswald; color: #000021">Get in Touch</h1>
-          <div class="contact-form-item">
-            <input type="text" placeholder="Enter Name" name="" id="name"> 
-          </div>
-          <div class="contact-form-item">
-          <input placeholder="Enter Email" type="text" name="" id="">
-        </div>
-          <div class="contact-form-item">
-          <input placeholder="Enter Message" type="text" name="" id="">
-        </div>
-          <button>Send</button>
-        </div>
-
-      </div>
-
-
-      <!-- Contact Us End here -->
-
-
-
-    <!-- Footer Start Here -->
-
-      <section class="footer-sec">
-        <div class="footer-sec-profile">
-            <img src="icon_person.png" alt="" srcset="">
-        </div>
-        <div>
-          <h1 style="
-          font-size: 16px;
-          color: #808080;
-          font-weight: 600;
-          font-family: Oswald;
-        ">© 2024. All rights reserved</h1>
-        </div>
-        <div class="footer-sec-icon">
-          <a href="https://www.instagram.com/samrat_mali4446/" target="_blank">
-            <img src="https://www.iconpacks.net/icons/2/free-instagram-logo-icon-3497-thumb.png" alt="" srcset="">
-          </a>
-          <a href="https://www.linkedin.com/in/samrat-mali-098126230/" target="_blank">
-            <img src="https://iconape.com/wp-content/files/yd/367773/svg/logo-linkedin-logo-icon-png-svg.png" alt="" srcset="">
-          </a>
-          <a href="mailto:samratmali12@yahoo.com"><img src="https://www.svgrepo.com/show/14478/email.svg" alt="" srcset=""></a>
-          <a href="https://github.com/SamratMali" target="_blank"><img src="https://www.svgrepo.com/show/445786/github.svg" alt="" srcset=""></a>
-
-        </div>
-      </section>
-
-    <!-- Footer End Here -->
 
   </body>
   <script src="script.js"></script>

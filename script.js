@@ -41,33 +41,3 @@ document.getElementById("openPDFBtn").addEventListener("click", function () {
   const filePath = "./Samrat_Mali.pdf";
   window.open(filePath);
 });
-
-//Popup box
-function showPopup() {
-  var popupBox = document.createElement("div");
-  popupBox.id = "popupBox";
-
-  var closeBtn = document.createElement("span");
-  closeBtn.id = "closeBtn";
-  closeBtn.innerHTML = "&times;";
-  closeBtn.onclick = function () {
-    document.body.removeChild(popupBox);
-  };
-  popupBox.appendChild(closeBtn);
-
-  var popupContent = document.createElement("div");
-  popupContent.innerHTML =
-    "<h2>Some latest News</h2><p>I’m excited to share that I recently developed  my new Project using MERN Stack which is Called as bolbuddy Check it now for more detail's</p>";
-  popupBox.appendChild(popupContent);
-
-  var checkNowButton = document.createElement("a");
-  checkNowButton.id = "checkbtn";
-
-  checkNowButton.href = "#project";
-  checkNowButton.textContent = "Check   Now";
-  popupBox.appendChild(checkNowButton);
-
-  document.body.appendChild(popupBox);
-}
-
-window.onload = showPopup;
