@@ -428,6 +428,74 @@ p {
 
 /* Project Section End here */
 
+/* Contact US Start here */
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us a {
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+}
+.nav-links {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.nav-links a {
+  font-size: 27px;
+
+  margin-left: 20px;
+}
+.contact-us h1 {
+  font-size: 70px;
+  font-family: monospace;
+  padding-bottom: 10px;
+}
+.contact-us p {
+  font-size: 27px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+  color: rgb(85, 85, 85);
+}
+
+.contact-opt {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  border: rgb(85, 85, 85) 2px solid;
+  display: flex;
+  flex-direction: row;
+}
+.linklind-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+.linklind-contact img {
+  width: 35px;
+  height: 35px;
+}
+.email-contact img {
+  width: 45px;
+  height: 45px;
+}
+.email-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+/* Contact Us End here */
+
 /* Animations */
 @keyframes tracking-in-expand {
   0% {
@@ -486,13 +554,30 @@ p {
     margin-left: 0;
   }
 
+  .project-info {
+    margin-left: 90px;
+  }
+  .proj-button {
+    display: flex;
+    flex-direction: row !important;
+    margin: 50px;
+  }
+  .proj-sub-button {
+    font-size: 17px;
+    height: 60px;
+    width: 120px;
+  }
   .project-container {
-    justify-content: center;
     margin-left: 0;
+  }
+  .project-img {
+    padding-left: 32px;
   }
 
   .project-img img {
-    width: 100%;
+    border-radius: 40px;
+
+    width: 90%;
     height: auto;
     margin: 20px 0;
   }
@@ -572,48 +657,3 @@ p {
     padding: 20px;
   }
 }
-
-/* Contact US Start here */
-.contact-us {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.contact-us a {
-  text-decoration: none;
-  color: black;
-  font-family: monospace;
-}
-.nav-links {
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-.nav-links a {
-  font-size: 27px;
-
-  margin-left: 20px;
-}
-.contact-us h1 {
-  font-size: 70px;
-  font-family: monospace;
-  padding-bottom: 10px;
-}
-.contact-us p {
-  font-size: 27px;
-  font-family: monospace;
-  padding-top: 10px;
-}
-.contact-us img {
-  width: 25px;
-  height: 25px;
-}
-.contact-opt {
-  padding: 20px;
-  border-radius: 30px;
-  border: #000000 2px solid;
-  display: flex;
-  flex-direction: row;
-}
-/* Contact Us End here */
