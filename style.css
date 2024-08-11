@@ -572,3 +572,48 @@ p {
     padding: 20px;
   }
 }
+
+/* Contact US Start here */
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us a {
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+}
+.nav-links {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.nav-links a {
+  font-size: 27px;
+
+  margin-left: 20px;
+}
+.contact-us h1 {
+  font-size: 70px;
+  font-family: monospace;
+  padding-bottom: 10px;
+}
+.contact-us p {
+  font-size: 27px;
+  font-family: monospace;
+  padding-top: 10px;
+}
+.contact-us img {
+  width: 25px;
+  height: 25px;
+}
+.contact-opt {
+  padding: 20px;
+  border-radius: 30px;
+  border: #000000 2px solid;
+  display: flex;
+  flex-direction: row;
+}
+/* Contact Us End here */
