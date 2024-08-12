@@ -590,6 +590,15 @@ p {
   .contact-us h1 {
     font-size: 55px;
   }
+  .contact-opt {
+    flex-direction: column;
+  }
+  .nav-links {
+    flex-direction: column;
+    a {
+      font-size: 21px;
+    }
+  }
 
   .profile-info {
     padding: 10px;
