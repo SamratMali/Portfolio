@@ -43,6 +43,9 @@ document.getElementById("openPDFBtn").addEventListener("click", function () {
 });
 
 // menu drop down
+window.onload = function () {
+  hideSidebar();
+};
 function showSidebar() {
   const sidebar = document.querySelector(".sidebar");
   sidebar.style.display = "flex";

@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+.sidebar {
+  display: none;
+}
 
 body {
   background-color: var(--primary-color);
