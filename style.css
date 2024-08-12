@@ -558,12 +558,13 @@ p {
   }
 
   .project-info {
-    margin-left: 90px;
+    margin-top: 35px;
+    margin-left: 50px;
   }
   .proj-button {
     display: flex;
     flex-direction: row !important;
-    margin: 50px;
+    margin: 5px;
   }
   .proj-sub-button {
     font-size: 17px;
@@ -574,6 +575,7 @@ p {
     margin-left: 0;
   }
   .project-img {
+    height: 200px;
     padding-left: 32px;
   }
 
@@ -581,7 +583,7 @@ p {
     border-radius: 40px;
 
     width: 90%;
-    height: auto;
+    height: 100%;
     margin: 20px 0;
   }
 
