@@ -38,7 +38,7 @@ function playClickSound() {
 
 //Open resume
 document.getElementById("openPDFBtn").addEventListener("click", function () {
-  const filePath = "./Samrat_Mali.pdf";
+  const filePath = "./assets/Samrat_Mali.pdf";
   window.open(filePath);
 });
 
