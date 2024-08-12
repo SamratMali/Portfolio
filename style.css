@@ -450,10 +450,11 @@ p {
 }
 .nav-links a {
   font-size: 27px;
-
+  color: var(--para-color);
   margin-left: 20px;
 }
 .contact-us h1 {
+  color: var(--para-color);
   font-size: 70px;
   font-family: monospace;
   padding-bottom: 10px;
@@ -464,11 +465,15 @@ p {
   padding-top: 10px;
   color: rgb(85, 85, 85);
 }
+.contact-opt a {
+  color: var(--para-color);
+}
 
 .contact-opt {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   padding: 20px;
+
   border-radius: 30px;
   border: rgb(85, 85, 85) 2px solid;
   display: flex;
