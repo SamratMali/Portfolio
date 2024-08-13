@@ -601,6 +601,7 @@ p {
   }
   .nav-links {
     flex-direction: column;
+    width: 30%;
     a {
       font-size: 18px;
     }
