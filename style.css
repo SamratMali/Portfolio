@@ -597,11 +597,12 @@ p {
   }
   .contact-opt {
     flex-direction: column;
+    padding: 2px;
   }
   .nav-links {
     flex-direction: column;
     a {
-      font-size: 21px;
+      font-size: 18px;
     }
   }
 
