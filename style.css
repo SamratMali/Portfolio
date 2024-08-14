@@ -255,17 +255,34 @@ html {
 .about-sec-cointainer {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+
   justify-content: space-between;
   max-width: 960px;
   margin: auto;
   padding: 20px;
 }
+.aboutme-containers {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  font-family: monospace;
+}
+.aboutme-content-box {
+  h1 {
+    margin-left: 52px;
+  }
+  border: #000000 2px solid;
+  height: 100px;
+  border-radius: 30px;
+  width: 250px;
+  padding: 10px;
+  margin-left: 20px;
+}
 
 .profile-img-about {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  border-radius: 10%;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   margin-bottom: 20px;
   background-color: #fe0080;
@@ -288,15 +305,11 @@ html {
 
 .about-content {
   flex: 1;
-  padding: 0 20px;
+  margin-left: 80px;
 }
 
 h2 {
   color: var(--nav-link-color);
-}
-
-p {
-  margin: 10px 0;
 }
 
 strong {
