@@ -268,8 +268,9 @@ html {
 .aboutme-content-box {
   h1 {
     margin-left: 35px;
+    color: var(--para-color);
   }
-  border: #000000 2px solid;
+  border: var(--para-color) 2px solid;
   height: 100px;
   border-radius: 30px;
   width: 210px;
