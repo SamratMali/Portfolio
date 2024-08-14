@@ -77,8 +77,8 @@ html {
 }
 
 .profile-mode img {
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
 }
 
 /* Nav link */
@@ -158,13 +158,11 @@ html {
   padding: 30px;
   width: 100%;
 }
-#profile-button-2 {
-  margin-left: 20px;
-}
+
 .profile-button {
   position: relative;
   margin: auto;
-
+  z-index: -0;
   margin-top: 20px;
   width: 100%;
   max-width: 300px;
@@ -269,16 +267,23 @@ html {
 }
 .aboutme-content-box {
   h1 {
-    margin-left: 52px;
+    margin-left: 35px;
   }
   border: #000000 2px solid;
   height: 100px;
   border-radius: 30px;
-  width: 250px;
+  width: 210px;
   padding: 10px;
   margin-left: 20px;
+  cursor: pointer;
+  p {
+    padding-top: 7px;
+  }
+  transition: transform 1s;
 }
-
+.aboutme-content-box:hover {
+  transform: scale(1.05);
+}
 .profile-img-about {
   border-radius: 10%;
   width: 300px;
@@ -286,6 +291,10 @@ html {
   object-fit: cover;
   margin-bottom: 20px;
   background-color: #fe0080;
+  transition: transform 1s;
+}
+.profile-img-about:hover {
+  transform: scale(1.05);
 }
 
 .about-section {
@@ -575,11 +584,24 @@ p {
   .profile-button {
     max-width: 80%;
   }
-
-  .about-sec-cointainer {
+  .about-section {
     flex-direction: column;
     align-items: center;
     padding: 10px;
+  }
+  .about-content {
+    margin: 0;
+    width: 32px;
+    margin-left: 3px !important;
+  }
+  .aboutme-content-box {
+    margin-top: 20px;
+  }
+
+  .aboutme-containers {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
   }
 
   .skill-cointainer {
